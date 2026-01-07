@@ -11,7 +11,7 @@ class Solution {
         for(String ss : list){
             num += ss;
         }
-        long answer = Long.parseLong(num);
-        return answer;
+        
+        return Long.parseLong(num);
     }
 }
