@@ -10,7 +10,7 @@ class Solution {
         }
         if(list.isEmpty())
             return new int[]{-1};
-        int[] answer = list.stream().mapToInt(i->i).toArray();
+        int[] answer = list.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }
