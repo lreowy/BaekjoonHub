@@ -5,10 +5,6 @@ class Solution {
             for(int j=0;j<food[i]/2;j++)
                 sb.append(i);
         }
-        sb.append(0);
-        String front = sb.toString();
-        sb.deleteCharAt(sb.length()-1);
-        sb.reverse();
-        return front + sb.toString();
+        return sb.toString() + "0" + sb.reverse().toString();
     }
 }
